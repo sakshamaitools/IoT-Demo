@@ -35,7 +35,7 @@ import {
 
 export default function TechnogeticPitch() {
   const [activeTab, setActiveTab] = useState('overview'); // overview, financials, demo
-  const [activeModal, setActiveModal] = useState(null); 
+  const [activeModal, setActiveModal] = useState<string | null>(null); 
   
   // Advanced Demo State
   const [demoState, setDemoState] = useState({
