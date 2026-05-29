@@ -29,8 +29,8 @@ export default function FounderTab() {
           </span>
         </h2>
         <p className="text-slate-400 max-w-xl mx-auto text-base leading-relaxed">
-          A rare blend of active IT operations leadership and hands-on IoT product development —
-          exactly the intersection this opportunity demands.
+          A commerce graduate who somehow ended up building IoT hardware and edge-AI systems —
+          proof that the best disruptions rarely come from inside the building.
         </p>
       </div>
 
@@ -55,11 +55,16 @@ export default function FounderTab() {
           {/* Bio */}
           <div className="flex-1 space-y-5">
             <p className="text-slate-300 text-base leading-relaxed">
-              Saksham brings a uniquely powerful combination to Technogetic — currently operating{" "}
-              <span className="text-white font-semibold">two active companies</span> across the exact
-              domains this venture sits at the intersection of: enterprise IT services and IoT AI systems.
-              This is not a first-time experiment; it is a deliberate convergence of proven operational
-              experience.
+              Saksham studied commerce — not computer science, not electrical engineering.
+              He then went ahead and built{" "}
+              <span className="text-white font-semibold">two technology companies anyway</span>.
+              One runs enterprise IT for businesses. The other ships IoT-AI products.
+              Somewhere between the balance sheets and the circuit boards, he found the
+              exact gap this market was missing.
+            </p>
+            <p className="text-slate-500 text-xs italic border-l-2 border-slate-700 pl-3">
+              &ldquo;If an accountant can figure out edge inference and BLE mesh networking,
+              imagine what the product becomes when the business model is just as sharp as the firmware.&rdquo;
             </p>
 
             {/* Company Cards */}
@@ -173,6 +178,10 @@ export default function FounderTab() {
           existing businesses — taking the AI/IoT product capabilities of Vanraksh and the enterprise
           delivery infrastructure of Technogetic to build India&apos;s first truly private, locally intelligent
           smart home platform.
+        </p>
+        <p className="text-slate-500 text-sm mt-4 italic">
+          The smart home market is being disrupted by someone who once thought a &ldquo;transistor&rdquo;
+          was a type of radio. That&apos;s the point.
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-3">
           {[
